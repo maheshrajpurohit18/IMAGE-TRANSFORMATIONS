@@ -30,8 +30,8 @@ Thus the program is executed in google colab.
 
 ## Program:
 ```python
-Developed By: ATHMAJ VENUGOPAL
-Register Number:212222240014
+Developed By: MAHESH RAJ PUROHIT J
+Register Number:212222240058
 ```
 i)Image Translation
 ```
