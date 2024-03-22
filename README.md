@@ -40,7 +40,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the input image
-input_image = cv2.imread("ABD.png")
+input_image = cv2.imread("zoro.jpg")
 
 # Convert from BGR to RGB so we can plot using matplotlib
 input_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
@@ -85,7 +85,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'KING KHOLI.png'  # Replace with your image URL or file path
+image_url = 'luffy.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define scale factors
@@ -116,7 +116,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'UNIVERSAL BOSS.png'  # Replace with your image URL or file path
+image_url = 'sanji.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define shear parameters
@@ -150,7 +150,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'FAF.png'  # Replace with your image URL or file path
+image_url = 'chopper.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Reflect the image horizontally
@@ -187,7 +187,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'BIG SHOW.png'  # Replace with your image URL or file path
+image_url = 'usop.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define rotation angle in degrees
@@ -228,7 +228,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'TRIO.png'  # Replace with your image URL or file path
+image_url = 'one piece.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define cropping coordinates (x, y, width, height)
@@ -252,47 +252,32 @@ show_image(cropped_image)
 ```
 ## Output:
 ### i)Image Translation
-<br>
-<br>
-<br>
-<br>
+![Screenshot 2024-03-22 114927](https://github.com/maheshrajpurohit18/IMAGE-TRANSFORMATIONS/assets/118749665/4cab0fdb-2e02-434d-a90d-a3669b182b3f)
 
 ### ii) Image Scaling
-<br>
-<br>
-<br>
-<br>
+![Screenshot 2024-03-22 114945](https://github.com/maheshrajpurohit18/IMAGE-TRANSFORMATIONS/assets/118749665/f4d96b10-ce2e-454c-a4df-eac39204e6ba)
 
 
 ### iii)Image shearing
-<br>
-<br>
-<br>
-<br>
+
+![Screenshot 2024-03-22 115011](https://github.com/maheshrajpurohit18/IMAGE-TRANSFORMATIONS/assets/118749665/154f99d1-aab5-4b07-8f36-42565231ffc5)
 
 
 ### iv)Image Reflection
-<br>
-<br>
-<br>
-<br>
+
+![Screenshot 2024-03-22 115225](https://github.com/maheshrajpurohit18/IMAGE-TRANSFORMATIONS/assets/118749665/3bd72b38-630f-4147-b2f0-b4be34a30801)
+![Screenshot 2024-03-22 115241](https://github.com/maheshrajpurohit18/IMAGE-TRANSFORMATIONS/assets/118749665/813a7dc9-5b8a-4a39-8c43-001d253d2a53)
 
 
 
 ### v)Image Rotation
-<br>
-<br>
-<br>
-<br>
+![Screenshot 2024-03-22 115306](https://github.com/maheshrajpurohit18/IMAGE-TRANSFORMATIONS/assets/118749665/b54e108b-5f52-4fff-9d03-d3e40ca3fcbd)
 
 
 
 ### vi)Image Cropping
-<br>
-<br>
-<br>
-<br>
 
+![Screenshot 2024-03-22 115327](https://github.com/maheshrajpurohit18/IMAGE-TRANSFORMATIONS/assets/118749665/5d0b3e2c-c0f8-4220-b9cd-306cf51464e5)
 
 
 
